@@ -4,7 +4,7 @@ Welcome to the INST750LG repository.
 
 ## Overview
 
-This project contains coursework and materials for INST750LG. The main notebook focuses on Amharic emotion classification using large language models (LLMs). It evaluates model performance on the original Amharic text and compares it with performance after augmenting the data by adding English translations.
+This project contains coursework and materials for INST750 Final Project. The main notebook focuses on Amharic emotion classification using large language models (LLMs). It evaluates model performance on the original Amharic text and compares it with performance after augmenting the data by adding English translations.
 
 The purpose of the project is to test whether English-translated Amharic data improves emotion classification performance. The initial assumption was that translated data may perform better because many LLMs are trained on much larger English datasets than Amharic or other African-language datasets. The project uses the `dev.csv` dataset, applies stratified sampling, runs LLM-based emotion classification, and analyzes the results using accuracy, F1 scores, confusion matrices, and prediction-change comparisons.
 
